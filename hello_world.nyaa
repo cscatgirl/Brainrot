@@ -1,0 +1,10 @@
+intwet boy;
+intwet kisser;
+intwet main()
+{
+	boy uwu 5;
+	kisser uwu 12;
+	pweaseSayNumber(boy+kisser);
+	pweaseSayWord("Hwello World");
+
+}

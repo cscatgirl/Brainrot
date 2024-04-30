@@ -1,0 +1,10 @@
+(ocamllex lexer)
+(ocamlyacc parser)
+
+(executable
+ (public_name brainrot)
+ (name brainrot)
+ (modules parser lexer ast codegen brainrot)
+ (libraries llvm
+ llvm.analysis)
+)
